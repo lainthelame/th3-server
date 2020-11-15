@@ -35,6 +35,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
+  port: 80
   externalPort: 80
   internalPort: 8080
 
