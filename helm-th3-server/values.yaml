@@ -5,7 +5,8 @@
 replicaCount: 3
 
 image:
-  repository: lainthelame/th3-server:v0.1
+  repository: lainthelame/th3-server
+  tag: v0.1
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
