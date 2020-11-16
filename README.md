@@ -9,7 +9,7 @@
 
 ## Setup the ArgoCD Application
 ```
-argocd app create guestbook --repo https://github.com/lainthelame/th3-server --path helm-th3-server --dest-server in-cluster --dest-namespace default
+argocd app create th3-server --repo https://github.com/lainthelame/th3-server --path helm-th3-server --dest-server in-cluster --dest-namespace default
 ```
 - Port forward argo UI and App
 ```
